@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Varela+Round&display=swap');
+body
+{
+    margin: 0;
+    padding: 0;
+    background: url('image/bg.png');
+    background-size: cover;
+}
+.left
+{
+    display: inline-block;
+    
+}
+.right
+{
+    display: inline-block;
+    position: relative;
+    bottom: 21px;
+    left: 120px;
+}
+.images
+{
+   position: relative;
+   left: 80px;
+   top: 7px;
+}
+.mid
+{
+    display: inline-block;
+    position: relative;
+    top: 9px;
+}
+.image
+{
+    width: 80px;
+    margin: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.item
+{
+    position: relative;
+    display: inline-block;
+    bottom: 30px;
+    margin-right: 120px;
+    color: aliceblue;
+    cursor: pointer;
+    /* border: 2px solid rgb(0, 255, 200); */
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 16px;
+}
+.item:hover
+{
+    text-decoration: underline;
+    color: rgba(180, 226, 238, 0.801);
+    font-size: 15px;
+   
+}
+#item1
+{
+    margin-left: 90px;
+}
+.fb,.insta
+{
+    width: 45px;
+    cursor: pointer;
+}
+.fb:hover,.insta:hover
+{
+    width: 47px;
+}
+.follow
+{
+    font-size: 16px;
+    color: aliceblue;
+    position: relative;
+    top: 35px;
+}
+.navigation
+{
+    background-color: #00000033;
+    /* border: 2px solid rgba(0, 0, 0, 0.141); */
+    border-radius: 80px;
+    margin: auto;
+    margin-top: 5px;
+    width: 98.5%;
+    /* display: flex; */
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.258), 0 6px 20px 0 rgba(0, 0, 0, 0.252);
+}
+.register
+{
+    border: 2px solid rgba(255, 255, 255, 0);
+    /* border-top-left-radius: 60px; */
+    /* border-bottom-right-radius: 60px; */
+    height: 400px;
+    width: 430px;
+    margin: 60px;
+    margin-left: 150px;
+    background-color: #00000030;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px #41e3fc;
+}
+.text
+{
+    margin-left: 60px;
+    /* margin-top: 20px; */
+}
+#reg,#signup
+{
+    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+#reg
+{
+    color: whitesmoke;
+    font-weight: bold;
+    margin-top: 30px;
+}
+#signup
+{
+    color: #37c0d3c9;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+#text1,#text2,#text3,#text4
+{
+    background-color: #00000000;
+    border: 2px solid rgb(105 139 255);
+    height: 30px;
+    border-radius: 6px;
+    width: 300px;
+    font-size: 12px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    outline: none;
+    margin-bottom: 10px;
+    color: white;
+}
+/* #text1:focus,#text2:focus,#text3:focus,#text4:focus
+{
+    border: 2px solid rgb(13, 0, 255);
+} */
+::placeholder
+{
+    color: rgba(143, 159, 170, 0.804);
+    opacity: 1;
+}
+input:focus {
+    border: 3px solid #555;
+    border: 1px solid #4195fc; 
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px #4195fc; 
+}
+#checkmark {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #eee;
+  }
+  .container {
+    display: block;
+    position: relative;
+    /* padding-left: 35px; */
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 12px;
+    user-select: none;
+    color: #b7b7b7;
+
+  }
+#signup2
+  {
+    width: 200px;
+    height: 35px;
+    position: relative;
+    left: 50px;
+    top: 10px;
+    border: 2px solid #ffffff;
+    background: linear-gradient(90deg, #f9784b 0%, #f445be 100%);
+    color:white ;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#signup2:hover
+{
+    box-shadow: 0px 0px 6px #4c92e8; 
+}
